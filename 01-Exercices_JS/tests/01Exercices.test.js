@@ -18,6 +18,8 @@ describe("EXERCICE 2 => areEquallyStrong()", () => {
     expect(areEquallyStrong(10, 15, 15, 10)).toBe(true);
     expect(areEquallyStrong(15, 10, 15, 10)).toBe(true);
     expect(areEquallyStrong(15, 10, 15, 9)).toBe(false);
+    expect(areEquallyStrong(10, 5, 5, 10)).toBe(true);
+    expect(areEquallyStrong(10, 15, 5, 20)).toBe(false);
   });
 });
 
