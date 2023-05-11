@@ -1,0 +1,15 @@
+{
+  "name": "02-exercices_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collectCoverage=false 02Exercices.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
