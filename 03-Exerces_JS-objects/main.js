@@ -32,23 +32,23 @@ function depositProfit(deposit, rate, threshold) {
 /* EXERCICE 3 ==> Find th max depending the param
 Given an array of students with the following format:
 
-  alumnos = [
-    {nombre:'Juan',
-    edad:23,
-    promedio: 9.7,
-    materias: 3
-    },
-    {nombre:'Martin',
-    edad:22,
-    promedio: 9.5,
-      materias: 6
-    },
-    {nombre:'Raul',
-    edad:29,
-    promedio: 8.7,
-    materias: 2
-    },
-  ]
+alumnos = [
+  {nombre:'Juan',
+  edad:23,
+  promedio: 9.7,
+  materias: 3
+},
+{nombre:'Martin',
+edad:22,
+promedio: 9.5,
+materias: 6
+},
+{nombre:'Raul',
+edad:29,
+promedio: 8.7,
+materias: 2
+},
+]
 
 Return the name of the student that has, according to the argument "arg", 
 the highest result
@@ -61,8 +61,29 @@ findTheMax(alumno, 'edad') ===> 'Raul'
 function findTheMax(alumnos, arg) {
   // your code here
 }
+
+//--------------------------------------------------------------------------
+/* EXERCICE 4 ==>  Array Replace
+
+Given an array of integers, replace all the occurrences of elemToReplace with substitutionElem.
+
+Example
+For inputArray = [1, 2, 1]
+elemToReplace = 1
+substitutionElem = 3
+
+The output should be:
+
+solution(inputArray, elemToReplace, substitutionElem) = [3, 2, 3]
+*/
+
+function arrayReplace(inputArray, elemToReplace, substitutionElem) {
+  //your code here
+}
+
 module.exports = {
   callBack,
   depositProfit,
   findTheMax,
+  arrayReplace,
 };

@@ -1,6 +1,11 @@
 "use strict";
 
-const { callBack, depositProfit, findTheMax } = require("../main");
+const {
+  callBack,
+  depositProfit,
+  findTheMax,
+  arrayReplace,
+} = require("../main");
 
 describe("EXERCICE 1 => CB funciton", () => {
   it("Should return a function ", () => {
@@ -80,5 +85,17 @@ describe("EXERCICE 3 => Find the max depending the param", () => {
   });
   it('Should return Raul, for "materias" as param ', () => {
     expect(findTheMax(alumnos, "materias")).toBe("Raul");
+  });
+});
+
+describe("EXERCICE 4 => Array Replace", () => {
+  it("Should Return an array", () => {
+    const res = arrayReplace([12, 1, 1, 4], 4, 1);
+    expect(Array.isArray(res)).toBe(true);
+  });
+
+  it("Should replace 1 with 3", () => {
+    let arrayInput = [1, 2, 1];
+    expect(arrayReplace(arrayInput, 1, 3)).toStrictEqual([3, 2, 3]);
   });
 });
