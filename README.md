@@ -8,6 +8,7 @@ In each folder, you will find a file named "main.js" where you will find the exe
 Inside each folder, you will need to run the following commands:
 
 -> npm i
+
 -> npm test
 
-Once the tests have been run, make sure that all of them have passed successfully.
+Once the tests have been run, make sure that all of them have failed.
