@@ -1,13 +1,21 @@
-# JS - Exercices
+# JS - Exercises
 
-In this repository, you will find exercises with different levels of difficulty for JavaScript, each one with its corresponding tests to verify if the exercise is correctly solved.
+![js_img](https://soyhorizonte.com/wp-content/uploads/2020/10/Javascript-by-SoyHorizonte.jpg)
 
-In each folder, you will find a file named "main.js" where you will find the exercises to solve.
+En este repositorio, encontrarás ejercicios de JavaScript con diferentes niveles de dificultad, cada uno con sus respectivas pruebas para verificar si el ejercicio está correctamente resuelto.
 
-Inside each folder, you will need to run the following commands:
+En cada carpeta, encontrarás un archivo llamado main.js donde se encuentran los ejercicios a resolver.
 
-| => npm i
+Para ejecutar las pruebas, sigue los siguientes pasos:
 
-| => npm test
+> Abre una terminal en la **carpeta raíz** del ejercicio.
 
-Once the tests have been run, make sure that all of them have failed.
+Ejecuta el siguiente comando para instalar las dependencias necesarias:
+
+- `npm install`
+
+Ejecuta el siguiente comando para ejecutar las pruebas:
+
+- `npm test`
+
+Asegúrate de que todas las pruebas hayan fallado antes de comenzar a resolver el ejercicio.

@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------------
-/*EXERCICE 1 ==> CallBack function
+/* EXERCICE 1 ==> CallBack function
 
  Make a function which is given a callback (cb) as a parameter.
 It must return a function with 2 parameters "a" and "b" which calls and
@@ -29,7 +29,7 @@ function depositProfit(deposit, rate, threshold) {
   // your code here
 }
 //--------------------------------------------------------------------------
-/*EXERCICE 3 ==> Find th max depending the param
+/* EXERCICE 3 ==> Find th max depending the param
 Given an array of students with the following format:
 
   alumnos = [
