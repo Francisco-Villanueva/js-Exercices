@@ -10,6 +10,8 @@ const {
 describe("EXERCICE 1 => isIPv4Address()", () => {
   it("should return true if the inputString is a valid IPv4 address", () => {
     expect(isIPv4Address("172.16.254.1")).toBe(true);
+    expect(isIPv4Address("172.16.254.1")).toBe(true);
+    expect(isIPv4Address("172.16.254.1")).toBe(true);
   });
 });
 
